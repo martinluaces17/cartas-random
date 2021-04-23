@@ -14,31 +14,26 @@
   </head>
 
   <body>
-    <div class="form-row align-items-center">
+    <div class="form-row align-items-center barra-botones">
       <div class="col-auto">
         <label class="sr-only" for="inlineFormInput">Input</label>
         <input
           type="number"
           class="form-control mb-2"
           id="input"
-          placeholder="Input"
+          placeholder="Ingresá un número"
         />
       </div>
       <div class="col-auto">
-        <button class="btn btn-primary mb-2" id="draw">Draw</button>
+        <button class="btn btn-primary mb-2" id="draw">Barajar</button>
       </div>
       <div class="col-auto">
-        <button class="btn btn-primary mb-2" id="sort">Sort</button>
+        <button class="btn btn-primary mb-2" id="ordenar">Ordenar</button>
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-secondary mb-2" id="clear">Limpiar mesa</button>
       </div>
     </div>
-
-    <div class="container-card">
-      <div class="card">
-        <!-- <div class="top"></div> -->
-        <span class="number"></span>
-        <!-- <div class="bottom"></div> -->
-      </div>
-      <button id="btnCard">Click me!</button>
-    </div>
+    <div class="padre"></div>
   </body>
 </html>
